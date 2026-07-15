@@ -19,10 +19,9 @@ int main()
     // vector<int> a = {10, 112, 9, 45, 70};
     int a[5]={2,1,3,4,8};
     pair<int,int> ans=minmax(a,5);
-    for(int i=0;i<5;i++)
-    {
+    
        cout<<ans.first<<" "<<ans.second<<" "<<"\n";
-    }
+    
     // int min = INT_MAX;
 
     // int maax = INT_MIN;
